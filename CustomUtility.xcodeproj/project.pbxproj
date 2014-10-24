@@ -13,6 +13,7 @@
 		CE60493819F9F6FB0017D9B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60493719F9F6FB0017D9B3 /* Images.xcassets */; };
 		CE60493B19F9F6FB0017D9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE60493919F9F6FB0017D9B3 /* LaunchScreen.xib */; };
 		CE60494719F9F6FB0017D9B3 /* CustomUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60494619F9F6FB0017D9B3 /* CustomUtilityTests.swift */; };
+		CE60495119F9F7610017D9B3 /* CustomUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60495019F9F7610017D9B3 /* CustomUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CE60494019F9F6FB0017D9B3 /* CustomUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60494519F9F6FB0017D9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE60494619F9F6FB0017D9B3 /* CustomUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUtilityTests.swift; sourceTree = "<group>"; };
+		CE60495019F9F7610017D9B3 /* CustomUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUtility.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CE60492D19F9F6FB0017D9B3 /* CustomUtility */ = {
 			isa = PBXGroup;
 			children = (
+				CE60495019F9F7610017D9B3 /* CustomUtility.swift */,
 				CE60493019F9F6FB0017D9B3 /* AppDelegate.swift */,
 				CE60493219F9F6FB0017D9B3 /* ViewController.swift */,
 				CE60493419F9F6FB0017D9B3 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE60493319F9F6FB0017D9B3 /* ViewController.swift in Sources */,
+				CE60495119F9F7610017D9B3 /* CustomUtility.swift in Sources */,
 				CE60493119F9F6FB0017D9B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
